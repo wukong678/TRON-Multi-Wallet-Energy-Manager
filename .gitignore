@@ -1,0 +1,95 @@
+# 钱包配置文件 - 包含私钥，绝对不能上传
+wallet_config.json
+multi_wallet_config.json
+
+# 交易记录文件 - 包含个人交易信息
+transaction_history.json
+
+# 备份文件
+*.backup
+*_backup.json
+wallet_backup_*.json
+
+# 生成的钱包文件
+generated_wallets.json
+small_budget_wallets.json
+demo_wallets.json
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 分发 / 打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 单元测试 / 覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 环境变量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+tmp_*
+temp_*
+*.tmp
+*.temp
+
+# 个人配置文件
+config.ini
+settings.json
